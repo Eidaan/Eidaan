@@ -6,7 +6,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=Eidaan&icon=2&color=12)](https://visitcount.itsvg.in)
 # 💫 About Me:<br>
-🔭 I’m currently working on Let'stute<br>🌱 I’m currently learning Web Developement<br>💬 Ask me about Python and C++<br>⚡ Fun fact I'm next Iron Man 🤖
+🔭 I’m currently working on Let'stute<br>🌱 I’m currently learning Web Developement<br>💬 Ask me about Python and C++<br>⚡ Fun fact: I'm next Iron Man 🤖
 
 
 ## 🌐 Socials:
