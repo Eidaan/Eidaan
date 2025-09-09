@@ -1,6 +1,6 @@
 ![image](https://github.com/Eidaan/Eidaan/assets/105504116/c7c39375-0356-4f28-a1f4-d8d87eb619a9)
 
-<h1 align="center">Hi 👋, I'm Eidaan Ansari</h1>
+<h1 align="center">Hi 👋, I'm Eidan Ansari</h1>
 <h3 align="center">A passionate AI Engineer, Web developer from India</h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1360/0*7Q3yvSIv_t0ioJ-Z.gif">
 
