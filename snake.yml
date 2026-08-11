@@ -1,0 +1,35 @@
+# Place at: .github/workflows/snake.yml  in the Eidaan/Eidaan repo.
+# Generates the animated contribution-snake SVG the README points to.
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # refresh twice a day
+  workflow_dispatch:          # allow manual runs
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=C36480&color_dots=161B22,6C34A4,945AD2,C36480,ffffff
+            dist/github-contribution-grid-snake.svg?color_snake=C36480&color_dots=ebedf0,945AD2,6C34A4,C36480,3d1466
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
