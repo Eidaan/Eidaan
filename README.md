@@ -1,3 +1,4 @@
+[README_1.md](https://github.com/user-attachments/files/30924053/README_1.md)
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                        EIDAN ANSARI · PROFILE README                     -->
 <!--   Repo: github.com/Eidaan/Eidaan  →  file must be named README.md        -->
@@ -107,7 +108,11 @@ class EidanAnsari:
 
 | Project | What it does | Impact |
 |---------|--------------|--------|
+| **Dimexon FinX** — Finance Automation Platform | Multi-tenant platform, two services: **PACE** (bank advice → SAP FI auto-posting) + **BRS** (bank reconciliation). LangGraph orchestration w/ Postgres checkpointing, FastAPI + SQLAlchemy, React/TypeScript UI, schema-per-tenant RBAC, `pyrfc` SAP posting | 🏦 **2 services** · multi-entity · 877 tests |
 | **GSS FI** — Invoice Automation | LangGraph multi-agent platform automating SAP S/4HANA FB60 & MIRO with OCR extraction, confidence scoring & human-in-the-loop validation (pyrfc) | ⚡ **65% faster** · 300+ invoices/mo |
+| **SAP MCP Toolbox** | FastMCP servers exposing live SAP RFC data (POs, sales, quality) to Claude Desktop over stdio + remote HTTP — SAP reporting as natural-language queries | 🔌 **MCP connectors** · SAP RFC |
+| **KYC → SAP Automation** | GPT-4o KYC document extraction + cross-doc validation with a KAM→BCT maker-checker approval workflow feeding SAP Business Partner creation (pyrfc) | 🪪 **maker-checker** · GPT-4o |
+| **Clearance Framework AI** | SAP RFC middleware: Excel-driven rules engine assigns clearance approvers, writes them back to SAP & triggers downstream — packaged as a Windows EXE | ⚖️ **rules engine** · SAP RFC |
 | **DA Purchase Orders** | NLP pipeline classifying PO categories, extracting structured data from emails/PDFs into SAP-ready Excel | 🧾 **~50% less effort** · 200+ POs/mo |
 | **RJC Compliance Automation** | Async scraping & validation with Selenium, pdfplumber & pywin32/Outlook | ✅ **~90% less manual work** · 50+ vendors |
 | **Demand Forecasting** | XGBoost demand classification + time-series forecasting + automated feature engineering | 📦 **20–30%** inventory reduction target |
