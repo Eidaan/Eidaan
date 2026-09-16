@@ -1,4 +1,3 @@
-[README_1.md](https://github.com/user-attachments/files/30924053/README_1.md)
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 <!--                        EIDAN ANSARI · PROFILE README                     -->
 <!--   Repo: github.com/Eidaan/Eidaan  →  file must be named README.md        -->
@@ -6,13 +5,13 @@
 
 <!-- HEADER BANNER -->
 <a href="https://github.com/Eidaan">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C34A4,100:C36480&height=200&section=header&text=Eidan%20Ansari&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20AI%20%C2%B7%20LLM%20Automation&descAlignY=58&descSize=18&animation=fadeIn" alt="Eidan Ansari header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6C34A4,100:C36480&height=200&section=header&text=Eidan%20Ansari&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Developer%20%C2%B7%20Agentic%20AI%20%C2%B7%20LLM%20Automation&descAlignY=58&descSize=18&animation=fadeIn" alt="Eidan Ansari header"/>
 </a>
 
 <!-- TYPING SUBTITLE -->
 <div align="center">
   <a href="https://github.com/Eidaan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=945AD2&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+systems+in+production;LangGraph+multi-agent+pipelines+%2B+RAG;Automating+SAP+S%2F4HANA+enterprise+workflows;AI+Engineer+%40+Dimexon+Diamonds" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=945AD2&center=true&vCenter=true&width=650&lines=Building+Agentic+AI+systems+in+production;LangGraph+multi-agent+pipelines+%2B+RAG;Automating+SAP+S%2F4HANA+enterprise+workflows;AI+Developer+%40+Dimexon+Diamonds" alt="Typing SVG"/>
   </a>
 </div>
 
@@ -34,18 +33,21 @@
 ```python
 class EidanAnsari:
     def __init__(self):
-        self.role      = "AI Engineer @ Dimexon Diamonds"
+        self.role      = "AI Developer @ Dimexon Diamonds"   # full-time since Jun 2026
         self.location  = "Mumbai, India"
         self.focus     = ["Agentic AI", "Multi-Agent Systems", "RAG", "Enterprise Automation"]
-        self.stack     = ["Python", "LangGraph", "LangChain", "FastAPI", "SAP S/4HANA"]
+        self.stack     = ["Python", "LangGraph", "LangChain", "FastAPI", "SAP S/4HANA", "MCP"]
         self.education = "MCA @ Thakur Institute (TIMSCDR)"
         self.mission   = "Turn manual enterprise workflows into autonomous AI pipelines"
 
     def currently_building(self):
-        return "LangGraph agents that cut manual overhead by 60-90%"
+        return "Multi-tenant AI platforms and LangGraph agents on top of SAP"
 ```
 
-- 🔭 &nbsp;Building **production Agentic AI** — LangGraph multi-agent pipelines automating SAP S/4HANA (FB60, MIRO) invoice, PO, and compliance workflows
+- 🔭 &nbsp;**AI Developer at Dimexon Diamonds** — converted from intern to full-time in 7 months after shipping production agent pipelines
+- 🤖 &nbsp;Building **production Agentic AI** — LangGraph multi-agent systems automating SAP S/4HANA (FB60, MIRO) invoice, PO, pricing and compliance workflows
+- 🏗️ &nbsp;Designing **multi-tenant AI platforms** — schema-per-tenant RBAC, Postgres-checkpointed graphs, FastAPI + React, `pyrfc` SAP posting
+- 🔌 &nbsp;Shipping **MCP connectors** that put live SAP data behind natural-language queries
 - 🧠 &nbsp;Deep in **RAG, LLM fine-tuning (QLoRA)**, OCR extraction, and human-in-the-loop validation
 - 📉 &nbsp;Delivered **60–90% reductions** in manual effort across enterprise finance & procurement
 - 🧪 &nbsp;Side quests in **ML, Explainable AI (SHAP)**, and real-time trading / fraud-detection systems
@@ -67,6 +69,7 @@ class EidanAnsari:
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=anthropic&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
 **ML / DL & MLOps**
@@ -84,6 +87,7 @@ class EidanAnsari:
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
@@ -109,13 +113,16 @@ class EidanAnsari:
 | Project | What it does | Impact |
 |---------|--------------|--------|
 | **Dimexon FinX** — Finance Automation Platform | Multi-tenant platform, two services: **PACE** (bank advice → SAP FI auto-posting) + **BRS** (bank reconciliation). LangGraph orchestration w/ Postgres checkpointing, FastAPI + SQLAlchemy, React/TypeScript UI, schema-per-tenant RBAC, `pyrfc` SAP posting | 🏦 **2 services** · multi-entity · 877 tests |
+| **AI Control Tower** | Multi-tenant AI governance & security platform that scans the internal AI project estate, records tenant-scoped findings with secret masking, and surfaces them through FastAPI + Postgres + React dashboards | 🛡️ **governance** · multi-tenant |
+| **Pricing AI** | Dynamic diamond-melee pricing engine: unifies Oracle + SAP into one master dataset, blends a documented rules engine with an LLM layer, and drives an auditable pricing-committee review loop | 💎 **rules + LLM** · auditable |
 | **GSS FI** — Invoice Automation | LangGraph multi-agent platform automating SAP S/4HANA FB60 & MIRO with OCR extraction, confidence scoring & human-in-the-loop validation (pyrfc) | ⚡ **65% faster** · 300+ invoices/mo |
 | **SAP MCP Toolbox** | FastMCP servers exposing live SAP RFC data (POs, sales, quality) to Claude Desktop over stdio + remote HTTP — SAP reporting as natural-language queries | 🔌 **MCP connectors** · SAP RFC |
+| **AribaFlow AI & P2P Non-Goods** | Agentic browser automation over SAP Ariba (login, navigation, ship notices) plus an agent-orchestration blueprint for non-goods procure-to-pay with DOA & workflow integration | 🤝 **CXO-reviewed** · agentic |
 | **KYC → SAP Automation** | GPT-4o KYC document extraction + cross-doc validation with a KAM→BCT maker-checker approval workflow feeding SAP Business Partner creation (pyrfc) | 🪪 **maker-checker** · GPT-4o |
 | **Clearance Framework AI** | SAP RFC middleware: Excel-driven rules engine assigns clearance approvers, writes them back to SAP & triggers downstream — packaged as a Windows EXE | ⚖️ **rules engine** · SAP RFC |
 | **DA Purchase Orders** | NLP pipeline classifying PO categories, extracting structured data from emails/PDFs into SAP-ready Excel | 🧾 **~50% less effort** · 200+ POs/mo |
 | **RJC Compliance Automation** | Async scraping & validation with Selenium, pdfplumber & pywin32/Outlook | ✅ **~90% less manual work** · 50+ vendors |
-| **Demand Forecasting** | XGBoost demand classification + time-series forecasting + automated feature engineering | 📦 **20–30%** inventory reduction target |
+| **SKU Inventory Holding Intelligence** | XGBoost demand classification + time-series forecasting + automated feature engineering | 📦 **20–30%** inventory reduction target |
 
 **Personal / Open Projects**
 
@@ -159,8 +166,7 @@ class EidanAnsari:
 <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" style="display:none"/>
-  <i>“Automate the repetitive, amplify the human.”</i>
+  <i>"Automate the repetitive, amplify the human."</i>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:C36480,100:6C34A4&height=120&section=footer" alt="footer"/>
